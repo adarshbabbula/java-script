@@ -1,0 +1,13 @@
+var a = 5;
+var b = 7;
+var c = a + b;
+console.log('c = ' + c);
+var stringNo = '10';
+var x = stringNo + a + b;
+var y = a + b + stringNo;
+console.log('x = '+x+' y = '+y);
+var z = a ** b;
+console.log('z = ' + z);
+console.log(x == y);
+console.log(stringNo == 10);
+console.log(typeof c);
